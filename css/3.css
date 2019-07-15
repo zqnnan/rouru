@@ -1,0 +1,381 @@
+
+body{
+    background: #F4F4F4;
+}
+.swiper-container .swiper-button-hidden {
+    opacity: 0;
+    
+}
+.swiper-container{
+    width: 100% !important;
+    height: 100%;
+    overflow: hidden !important;
+}
+.btn-left,
+.btn-right {
+    background: gray;
+    opacity: .5;
+}
+
+.swiper-button-black {
+    border-radius: 50% !important;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.my-bullet {
+    display: inline-block;
+    width: 40px;
+    height: 6px;
+    margin: 0 10px;
+    background: rgba(0, 0, 0, .4);
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    top: -60px;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    z-index: 100;
+
+}
+
+.nav:hover {
+    background: #ffffff;
+}
+
+.nav:hover .nav-left .abox a {
+    color: black;
+}
+
+.nav:hover .img1 {
+    display: none;
+}
+
+.nav:hover .img2 {
+    display: block;
+}
+
+.nav-left {
+    float: left;
+    height: 80px;
+    width: 80%;
+}
+.nav-right {
+    width: 20%;
+    float: left;
+    height: 80px;
+}
+.nav-left .img1 {
+    display: inline-block;
+    width: 140px;
+    margin-top: 25px;
+    margin-left: 7%;
+    float: left;
+}
+.nav-left .img2 {
+    display: none;
+    width: 140px;
+    margin-top: 25px;
+    margin-left: 7%;
+    float: left;
+}
+
+.nav-left .abox {
+    height: 77px;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 20%;
+    line-height: 77px;
+    position: relative;
+}
+
+.nav-left .abox a {
+    border: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 3%;
+    font-size: .2rem;
+    display: inline-block;
+   
+}
+
+.nav-left .abox a span {
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 3px;
+    background: #007cba;
+}
+
+.nav-left .abox a:hover {
+    color: #007cba !important;
+}
+
+.nav-left .abox a:hover .span {
+
+    transition: width .8s;
+    width: 73px;
+}
+
+.btn-sc {
+    height: 28px;
+    line-height: 28px;
+    height: 30px;
+    width: 80px;
+    color: #fff;
+    background: #007cba;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-sc:hover {
+    opacity: .8;
+}
+
+.nav-right img {
+    display: inline-block;
+    margin-left: 30px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.hidee{
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    /* background: rgb(129, 20, 20); */
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.list1{
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    display: none;
+    position: absolute;
+}
+.list3{
+    display: none;
+    position: absolute;
+    left: 622px;
+    width: 120px;
+    height: auto;
+    background: darkblue;
+}
+.list3 li{
+    height: 40px;
+    line-height: 40px;
+    text-indent: 25px;
+    margin-top: 2px;
+    background: darkgoldenrod;
+}
+.list4{
+    display: none;
+    position: absolute;
+    left: 751px;
+    /* top: -355px; */
+    width: 120px;
+    height: auto;
+    background: darkblue;
+}
+.list3 li:hover{
+    background: white;
+}
+/* .to-top{
+    position:relative;
+    left: 50%;
+} */
+.jianto{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9;
+    cursor: pointer;
+}
+.jiant{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9;
+    cursor: pointer;
+    background: url(../img/bottom_arrow_normal.png) no-repeat;
+}
+.jiant:hover {
+    height: 36px;
+    width: 36px;
+    background-size: cover;
+    background: url(../img/bottom_arrow_hover.png) no-repeat;
+}
+/* 热门产品 */
+.row1{
+    
+    min-height: 836px;
+    width: 100%;
+    margin-top: -10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #F4F4F4 ;
+    margin-left: 0px !important; 
+ 
+}
+
+.row1 h2{
+    margin-top: 50px;
+    margin-bottom: 55px;
+    font-size: .4rem;
+    line-height: 24px;
+    color: #666;
+    text-align: center;
+}
+.re-left{
+    height: 581px !important;
+    background-color: white;
+    margin-left: 3%;
+    box-shadow: 0px 0.1px 1.3px 0.1px;
+    width: 45% !important;	
+}
+
+.main-box-left-c{
+    margin: 100px auto;
+    /* background-color: pink; */
+}
+.rou{
+    font-size: .3rem;
+    text-align: center;
+}
+.rou1{
+    font-size: .2rem;
+    text-align: center;
+    line-height: 70px;
+    color: gray;
+}
+.main-box-left-c img{
+    display: block;
+    margin: auto;
+    margin-top: 53px;
+}
+
+
+
+.re-right{
+    height: 633px;
+    margin-left: 3%;
+    width: 45% !important;
+}
+.re-right ul li{
+    height: 284px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0.1px 1.3px 0px;
+    margin-top: 14px;
+    list-style: none;
+}
+.r1{
+    width: 50%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 1%;
+}
+.r2{
+    width: 40%;
+	height: 100px;
+	float: left;
+	margin-top: 85px;
+}
+.r2-1{
+	height: 50px;
+    font-size: .2rem;
+	text-align: center;
+	line-height: 50px;
+
+}
+.r2-2{
+	height: 30px;
+	font-size: .1rem;
+	text-align: center;
+	line-height: 20px;
+    color: gray;
+}
+
+@media  (max-width:1000px){
+  .re-left{
+    width: 93% !important;
+    height: 431px !important;
+    margin-left: 4%;
+  }
+  .re-right{
+     width: 95% !important;
+ }
+ .re-right ul li{
+    margin-top: 29px !important;
+    
+ }
+
+}
+
+/* <!-- 柔性 --> */
+.row2{
+    width: 100%;
+    background: #fff;   
+}
+.s1{
+	/*background-color: darkcyan;*/
+    height: 370px;  
+}
+.tub{
+	width: 31%;
+    margin: auto;
+    margin-top: 100px;
+}
+.wenzi{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: .3rem;
+}
+.wenzi1{
+    text-align: center;
+    line-height: 24px;
+    margin-top: 10px;
+    color: gray;
+    font-size: .2rem;
+}
+.s2{
+    height: 750px;
+    width: 100% !important;
+}
+.s2 ul li{ 
+    float: left;
+    margin-top: 10px;
+    width: 32%;
+    margin-left: 1%;
+    background-size: contain;
+}
+.s2 ul li img{
+    display: inline-block;
+    margin-left: 1%;
+}
+ @media (max-width: 1000px){
+    .s2 ul li{
+        width: 100% !important;
+    }
+
+
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #box {
+      background-color: gray;
+      height: 20px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .a {
+      margin-top: 10px;
+
+      background-color: red;
+      width: 0;
+      height: 20px;
+      margin: 0 auto;
+      /* transition:width .8s; */
+      /* -webkit-transition:width .8s; */
+    }
+
+    #box:hover .a {
+      width: 100%;
+      transition: width .8s;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="box">
+    <div class="a"></div>
+  </div>
+
+</body>
+
+
+
+<script type="text/javascript">
+
+  document.body.innerText = "<div> 12</div>"
+
+
+  
+</script>
+
+</html>
